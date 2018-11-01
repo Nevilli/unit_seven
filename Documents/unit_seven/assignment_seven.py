@@ -8,5 +8,13 @@ def choose():
         print("Goodbye")
 
 
-def string():
-    alphabet = "abcdefghijklmnopqrstuvwxyz"
+def main():
+    if choose == "e":
+        number = int(input("Choice a number between 0-25"))
+        alphabet = "abcdefghijklmnopqrstuvwxyz"
+        first = alphabet[0:number]
+        last = alphabet[number:]
+        final = last + first
+
+
+main()
